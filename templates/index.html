@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CODEWEFT's innovative AI products: AI Voice Assistant, AI Chat Bots, AI Phone Calling Agent (coming soon), and AI Appointment Booking System transform businesses.">
+        <meta name="keywords" content="AI products, AI Voice Assistant, AI Chat Bots, AI Phone Calling Agent, CODEWEFT, artificial intelligence">
+        <meta name="author" content="CODEWEFT">
+        <meta property="og:title" content="CODEWEFT - AI Products Powering Your Future">
+        <meta property="og:description" content="Discover CODEWEFT's cutting-edge AI solutions for businesses, including voice bots, chatbots, and intelligent automation.">
+        <meta property="og:image" content="https://codeweft.ai/assets/og-image.jpg">
+        <meta property="og:url" content="https://codeweft.ai">
+        <meta property="og:type" content="website">
+        <title>CODEWEFT - AI Products</title>
+        <link href="https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/css/styles.css">
+    </head>
+    <body>
+        <video autoplay muted loop aria-hidden="true" poster="/static/assets/bg-fallback.jpg">
+            <source src="/static/assets/bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <header>
+            <nav class="navbar" role="navigation" aria-label="Main navigation">
+                <a href="#home" class="logo" aria-label="CODEWEFT Home">CODEWEFT</a>
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+                <div class="nav-menu" role="menubar">
+                    <a href="#home" role="menuitem" aria-current="page">Home</a>
+                    <div class="dropdown" role="menuitem" aria-haspopup="true" aria-controls="products-dropdown">
+                        <a href="/products" aria-label="Products menu">Products</a>
+                        <div class="dropdown-content" id="products-dropdown" role="menu">
+                            <a href="/products#voice-assistant" role="menuitem">AI Voice Assistant</a>
+                            <a href="/products#chat-bots" role="menuitem">AI Chat Bots</a>
+                            <a href="/products#phone-agent" role="menuitem">AI Phone Calling Agent</a>
+                            <a href="/products#appointment-booking" role="menuitem">AI Appointment Booking</a>
+                        </div>
+                    </div>
+                    <a href="#about" role="menuitem">About</a>
+                    <a href="#contact-form" role="menuitem">Contact</a>
+                    <a href="#contact-form" class="get-started" role="menuitem">Get Started</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero fade-in" id="home" aria-labelledby="hero-heading">
+                <div class="hero-subheading">Weaving Intelligence Into The Fabric of Tomorrow</div>
+                <h1 id="hero-heading" class="hero-heading">AI Products<br>Powering Your Future</h1>
+                <p class="hero-description">Cutting-edge AI solutions that transform businesses through voice bots, chatbots, and intelligent automation. Unlock the full potential of your enterprise.</p>
+                <div class="hero-buttons">
+                    <a href="/products" class="explore-products" aria-label="Explore our AI products">Explore Products</a>
+                    <a href="#products" class="learn-more" aria-label="Learn more about our AI solutions">Learn More</a>
+                </div>
+            </section>
+            <section class="products fade-in" id="products" aria-labelledby="products-heading">
+                <h2 id="products-heading">Our AI Products</h2>
+                <p>Discover our innovative AI products designed to enhance customer engagement and streamline operations.</p>
+                <div class="products-filter" role="tablist" aria-label="Product filters">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" aria-controls="products-content">All</button>
+                    <button class="filter-btn" data-filter="voice-assistant" role="tab" aria-selected="false" aria-controls="products-content">Voice Assistant</button>
+                    <button class="filter-btn" data-filter="chat-bots" role="tab" aria-selected="false" aria-controls="products-content">Chat Bots</button>
+                    <button class="filter-btn" data-filter="phone-agent" role="tab" aria-selected="false" aria-controls="products-content">Phone Agent</button>
+                    <button class="filter-btn" data-filter="appointment-booking" role="tab" aria-selected="false" aria-controls="products-content">Appointment Booking</button>
+                </div>
+                <div class="products-content" id="products-content" role="tabpanel">
+                    <article class="product voice-assistant" aria-labelledby="voice-assistant-heading" aria-describedby="voice-assistant-desc">
+                        <div class="product-icon voice-assistant" aria-hidden="true"></div>
+                        <h3 id="voice-assistant-heading">AI Voice Assistant</h3>
+                        <p id="voice-assistant-desc">Seamless voice interactions with advanced recognition and speech synthesis.</p>
+                        <ul>
+                            <li>Voice recognition</li>
+                            <li>Natural speech generation</li>
+                            <li>Multi-platform integration</li>
+                            <li>Custom voice profiles</li>
+                        </ul>
+                        <div class="product-buttons">
+                            <a href="/products#voice-assistant" class="learn-more-btn" aria-label="Learn more about AI Voice Assistant">Learn More</a>
+                            <a href="/demo#voice-assistant" class="demo-btn" aria-label="View AI Voice Assistant demo">Quick Demo</a>
+                        </div>
+                    </article>
+                    <article class="product chat-bots" aria-labelledby="chat-bots-heading" aria-describedby="chat-bots-desc">
+                        <div class="product-icon chat-bots" aria-hidden="true"></div>
+                        <h3 id="chat-bots-heading">AI Chat Bots</h3>
+                        <p id="chat-bots-desc">Intelligent conversational AI for customer support and engagement.</p>
+                        <ul>
+                            <li>Context-aware responses</li>
+                            <li>Multi-language support</li>
+                            <li>Knowledge base integration</li>
+                            <li>24/7 availability</li>
+                        </ul>
+                        <div class="product-buttons">
+                            <a href="/products#chat-bots" class="learn-more-btn" aria-label="Learn more about AI Chat Bots">Learn More</a>
+                            <a href="/demo#chat-bots" class="demo-btn" aria-label="View AI Chat Bots demo">Quick Demo</a>
+                        </div>
+                    </article>
+                    <article class="product coming-soon phone-agent" aria-labelledby="phone-agent-heading" aria-describedby="phone-agent-desc">
+                        <div class="product-icon phone-agent" aria-hidden="true"></div>
+                        <h3 id="phone-agent-heading">AI Phone Calling Agent</h3>
+                        <p id="phone-agent-desc">Automated phone interactions for scheduling and customer service.</p>
+                        <ul>
+                            <li>Automated call handling</li>
+                            <li>Voice-driven scheduling</li>
+                            <li>CRM integration</li>
+                            <li>Real-time analytics</li>
+                        </ul>
+                        <div class="product-buttons">
+                            <a href="#contact" class="learn-more-btn" aria-label="Get notified about AI Phone Calling Agent">Get Notified</a>
+                            <a href="#contact" class="demo-btn" aria-label="Request AI Phone Calling Agent demo">Request Demo</a>
+                        </div>
+                    </article>
+                    <article class="product appointment-booking" aria-labelledby="appointment-booking-heading" aria-describedby="appointment-booking-desc">
+                        <div class="product-icon appointment-booking" aria-hidden="true"></div>
+                        <h3 id="appointment-booking-heading">AI Appointment Booking</h3>
+                        <p id="appointment-booking-desc">Automated scheduling with intelligent time-slot optimization.</p>
+                        <ul>
+                            <li>Smart scheduling</li>
+                            <li>Calendar integration</li>
+                            <li>Automated reminders</li>
+                            <li>Multi-user support</li>
+                        </ul>
+                        <div class="product-buttons">
+                            <a href="/products#appointment-booking" class="learn-more-btn" aria-label="Learn more about AI Appointment Booking">Learn More</a>
+                            <a href="/demo#appointment-booking" class="demo-btn" aria-label="View AI Appointment Booking demo">Quick Demo</a>
+                        </div>
+                    </article>
+                </div>
+                <a href="/products" class="view-all-btn" aria-label="View all AI products">View All Products</a>
+            </section>
+            <section class="about-us fade-in" id="about" aria-labelledby="about-us-heading">
+                <div class="background"></div>
+                <h2 id="about-us-heading">About Us</h2>
+                <p>We are a cutting-edge AI and software development company dedicated to creating intelligent solutions that solve complex business problems. With our team of expert developers, data scientists, and AI specialists, we deliver innovative products that drive digital transformation.</p>
+                <p>Founded in 2024, we've been at the forefront of AI innovation, helping businesses across industries leverage the power of artificial intelligence and machine learning to gain competitive advantages.</p>
+                <h3>Our Mission</h3>
+                <p>At CodeWeft, we're weaving intelligence into the fabric of tomorrow's technology. Our mission is to democratize advanced AI capabilities, making them accessible, practical, and transformative for businesses of all sizes.</p>
+                <p>We believe that AI should enhance human potential, not replace it. Every solution we build aims to augment human capabilities, allowing people to focus on creative, strategic, and empathetic work.</p>
+                <div class="team-stats">
+                    <div class="team-stat" aria-label="Over 50 AI Experts">
+                        <h4>50+</h4>
+                        <p>AI Experts</p>
+                    </div>
+                    <div class="team-stat" aria-label="Over 100 Projects Delivered">
+                        <h4>100+</h4>
+                        <p>Projects Delivered</p>
+                    </div>
+                    <div class="team-stat" aria-label="Over 10 Industries Served">
+                        <h4>10+</h4>
+                        <p>Industries Served</p>
+                    </div>
+                </div>
+            </section>
+            <section class="why-choose-us fade-in" aria-labelledby="why-choose-us-heading">
+                <h2 id="why-choose-us-heading">Why Choose Our AI Products</h2>
+                <p>Our AI products are engineered for performance, scalability, and seamless integration, delivering measurable results for your business.</p>
+                <div class="why-choose-us-content">
+                    <div class="why-choose-us-feature">
+                        <div class="why-choose-us-feature-icon tech" aria-hidden="true"></div>
+                        <div class="why-choose-us-feature-text">
+                            <h3>Industry-Leading Technology</h3>
+                            <p>Our products leverage state-of-the-art AI for unmatched performance in voice and text interactions.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-feature">
+                        <div class="why-choose-us-feature-icon custom" aria-hidden="true"></div>
+                        <div class="why-choose-us-feature-text">
+                            <h3>Customizable Solutions</h3>
+                            <p>Tailor our AI Voice Assistant, Chat Bots, and Appointment Booking System to fit your brand and workflows.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-feature">
+                        <div class="why-choose-us-feature-icon integration" aria-hidden="true"></div>
+                        <div class="why-choose-us-feature-text">
+                            <h3>Seamless Integration</h3>
+                            <p>Our products integrate effortlessly with your existing platforms, ensuring quick deployment.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-feature">
+                        <div class="why-choose-us-feature-icon reliability" aria-hidden="true"></div>
+                        <div class="why-choose-us-feature-text">
+                            <h3>Proven Reliability</h3>
+                            <p>Trusted by businesses worldwide, our AI products deliver consistent, high-quality performance.</p>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-feature">
+                        <div class="why-choose-us-feature-icon support" aria-hidden="true"></div>
+                        <div class="why-choose-us-feature-text">
+                            <h3>Dedicated Support</h3>
+                            <p>Our team provides 24/7 support to ensure your AI products run smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us fade-in" aria-labelledby="contact-us-heading">
+                <h2 id="contact-us-heading">Contact Us</h2>
+                <p>Get in touch to explore how our AI products can elevate your business.</p>
+                <div class="contact-us-content">
+                    <div class="contact-details">
+                        <h3>Get in Touch</h3>
+                        <p class="address">Headquarters: Mumbai, MH, India</p>
+                        <p class="email">Email: codeweft.ai@gmail.com</p>
+                        <p class="phone">Phone: +91 9137673670</p>
+                    </div>
+                    <form class="contact-form" id="contact-form" action="/contact" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="number" name="number" placeholder="Your Number" required>
+                            <label for="number">Your Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="msg" name="msg" placeholder="Your Message" required>
+                            <label for="msg">Your Message</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="product" name="product" required>
+                                <option value="" disabled selected>Select Product</option>
+                                <option value="voice-assistant">AI Voice Assistant</option>
+                                <option value="chat-bots">AI Chat Bots</option>
+                                <option value="phone-agent">AI Phone Calling Agent</option>
+                                <option value="appointment-booking">AI Appointment Booking</option>
+                            </select>
+                            <label for="product">Select Product</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <button type="submit" id="submit-btn">Send</button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" role="contentinfo">
+            <div class="footer-content">
+                <nav class="footer-links" aria-label="Footer navigation">
+                    <a href="#home">Home</a>
+                    <a href="/products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <nav class="footer-social" aria-label="Social media links">
+                    <a href="https://twitter.com" rel="noopener noreferrer" target="_blank"><span class="social-icon twitter" aria-hidden="true"></span>Twitter</a>
+                    <a href="https://linkedin.com" rel="noopener noreferrer" target="_blank"><span class="social-icon linkedin" aria-hidden="true"></span>LinkedIn</a>
+                    <a href="https://github.com" rel="noopener noreferrer" target="_blank"><span class="social-icon github" aria-hidden="true"></span>GitHub</a>
+                </nav>
+                <nav class="footer-apps" aria-label="App store links">
+                    <a href="https://www.apple.com/app-store/" rel="noopener noreferrer" target="_blank"><span class="app-icon ios" aria-hidden="true"></span>App Store</a>
+                    <a href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><span class="app-icon android" aria-hidden="true"></span>Google Play</a>
+                </nav>
+                <div class="footer-newsletter" aria-label="Newsletter subscription">
+                    <p>Stay updated with our latest AI innovations</p>
+                    <form id="newsletter-form" action="/newsletter" method="POST">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p>© 2025 Codeweft. All rights reserved.</p>
+        </footer>
+        <script src="/static/js/scripts.js"></script>
+    </body>
+</html>
